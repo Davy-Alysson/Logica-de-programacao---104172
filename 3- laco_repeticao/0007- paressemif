@@ -1,0 +1,6 @@
+import os 
+os.system("cls")
+
+print("Numeros impares entre 1 e 21")
+for i in range(100,121,2):
+    print(i)

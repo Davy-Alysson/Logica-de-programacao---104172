@@ -13,5 +13,3 @@ elif numeroi < numerof:
         print(i)
         time.sleep(1)
 
-     
-
