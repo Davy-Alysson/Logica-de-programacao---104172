@@ -5,7 +5,7 @@ impares = 0
 for i in range(1, 6):
     numero = int(input(f"Digite o {i}º:"))
 
-    if numero % 2 ==0:
+    if numero % 2 == 0:
         pares = pares + 1
     else:
         impares = impares + 1
