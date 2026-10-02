@@ -39,6 +39,7 @@ while True:
         
         if confirmacao == 'S' and pix <= saldo:
             print(f"{pix} foi enviado com sucesso para {pessoa}")
+            saldo -= pix
         elif confirmacao == 'N':
             print(f'Pix não enviado')
         elif pix > saque:
