@@ -8,7 +8,6 @@ quantidade_de_filhos = 0
 maior_salario = 0.0
 menor_salario = 0.0
 salario = 0.0
-
 print('1 - Adicionar família')
 print('2 - Sair e exibir resultados')
 
