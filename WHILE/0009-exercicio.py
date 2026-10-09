@@ -21,7 +21,7 @@ while True:
         genero = input("Informe seu gênero:").upper()
         salario = float(input("Informe seu salário:"))
         quantidade_de_pessoas += 1
-        salario_total +=  salario
+        salario_total += salario
         continue
         
     if genero == 'F' and salario >= 5000:
