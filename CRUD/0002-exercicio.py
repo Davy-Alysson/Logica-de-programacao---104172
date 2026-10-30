@@ -45,5 +45,3 @@ while True:
             print('Opção inválida!')
             input('Pressione uma tecla para continuar...')
             continue
-
-
