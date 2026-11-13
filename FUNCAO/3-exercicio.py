@@ -6,17 +6,14 @@ def logo_senai():
     print(' SENAI - BAHIA')
     print('='*15)
 
-def mostrar_dados(nome, email, telefone):
-    print(f'Nome: {nome}\nEmail: {email}\nTelefone é {telefone}')
+def mostrar_dados(nome, idade):
+    print(f'Nome: {nome}\nIdade: {idade}')
 
 
 logo_senai()
 nome = input('Digite seu nome: ')
 
 logo_senai()
-email = input('Digite seu email: ')
+idade = int(input("Digite sua idade: "))
 
-logo_senai()
-telefone = input('Digite seu telefone: ')
-
-mostrar_dados(nome, email, telefone)
+mostrar_dados(nome, idade)
