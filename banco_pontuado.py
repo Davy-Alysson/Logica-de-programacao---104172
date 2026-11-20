@@ -29,9 +29,11 @@ def menu():
     print("0 - Sair")
         
 def ver_saldo(saldo):
-    print(f'Saldo: {saldo: .2f}')
-    time.sleep(2)
-    os.system('cls')
+        print(f'Saldo: {saldo: .2f}')
+        time.sleep(2)
+        os.system('cls')
+        
+    
 
 def deposito(saldo):
     while True:
@@ -112,12 +114,16 @@ while True:
     match escolha:
         case '1':
             ver_saldo(saldo)
+            
         case '2':
             saldo = deposito(saldo)
+            
         case '3':
             saldo = saque(saldo)
+            
         case '4':
             mostrar_extrato(saldo)
+            
         case '0':
             time.sleep(0.7)
             print('Encerrando banco.')
